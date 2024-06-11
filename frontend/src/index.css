@@ -1,0 +1,20 @@
+.table-container {
+  margin-top: 20px;
+}
+
+.item-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.item-table th,
+.item-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.item-table th {
+  background-color: #3b3838;
+  text-align: center;
+  color: white;
+}
