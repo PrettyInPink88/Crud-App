@@ -33,6 +33,7 @@ app.get('/items', async (req, res) => {
 });
 
 app.post('/items', async (req, res) => {
+  console.log('Received data:', req.body);
   try {
     const newItem = new Item(req.body);
     const savedItem = await newItem.save();
